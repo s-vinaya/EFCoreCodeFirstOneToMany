@@ -1,3 +1,74 @@
+# Ignore Visual Studio temporary files, build results, and cache
 .vs/
-bin/
-obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio Code
+.vscode/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# NuGet packages
+*.nupkg
+*.snupkg
+# The packages folder can be ignored because of Package Restore
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+# Uncomment if necessary
+#!**/[Pp]ackages/repositories.config
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Publish output
+wwwroot/dist/
+wwwroot/node_modules/
+
+# Node modules
+node_modules/
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# Logs
+*.log
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+
+# JetBrains Rider
+.idea/
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+
+# T4 generated files
+*.Generated.cs
+
+# Backup & Reports
+*.bak
+*.Backup
+*.Report
+
+# dotenv environment variables
+.env
