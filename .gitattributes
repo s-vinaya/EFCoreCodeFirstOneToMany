@@ -1,0 +1,23 @@
+# Handle line endings automatically
+* text=auto
+
+# C# files always LF
+*.cs text eol=lf
+
+# Batch scripts always CRLF
+*.bat text eol=crlf
+
+# Mark images as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+
+# Don't diff certain files
+*.dll binary
+*.exe binary
+*.pdb binary
+
+# Merge strategy for lock files
+*.lock merge=ours
+"" 
